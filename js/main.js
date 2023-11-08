@@ -131,9 +131,9 @@ form.addEventListener('submit', async (event) => {
 
 // PAGINATION FUNCTION**********************************
 function paginationButtons(totalPages) {
-  pagination.innerHTML = ''; // Clear previous buttons
+  pagination.innerHTML = '';
 
-  const pagesShow = Math.min(totalPages, 5); // Show up to 5 buttons
+  const pagesShow = Math.min(totalPages, 5);
   const middlePages = Math.max(pagesShow - 2, 0);
 
   let startPage = 1;
