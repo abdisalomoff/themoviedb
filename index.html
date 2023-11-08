@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>themoviedb</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body style="background-color: #F5F5F5;">
+    <div class="container">
+        <form class="form" id="form">
+            <label class="input-label" for="search-input">
+                <input type="text" id="search-input" placeholder="Search a movies..." name="search">
+            </label>
+        </form>
+        <div class="loading none">
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <p class="error"></p>
+
+        <ul class="movies-list" id="movies-list">
+
+        </ul>
+
+
+        <div class="pagination-wrapper">
+            <ul class="pagination" id="pagination">
+                
+                <div class="bar"></div>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
